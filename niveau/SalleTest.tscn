@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://graphisme/fond.png" type="Texture" id=1]
+
+[node name="SalleTest" type="Node" index="0"]
+
+[node name="Graphisme" type="Node" parent="." index="0"]
+
+[node name="fond" type="Sprite" parent="Graphisme" index="0"]
+
+position = Vector2( 512.52, 300.073 )
+scale = Vector2( 1.67435, 1.95277 )
+texture = ExtResource( 1 )
+
+
